@@ -1,4 +1,4 @@
-# Model PRedictive Contro of Concentric Tube Robot 
+# Model Predictive Control of Concentric Tube Robots
 Repo for control a concentric tube robot with 2 tubes. It implements the methodology presented in the following publication:
 
 M. Khadem, J. O’Neill, Z. Mitros, L. da Cruz and C. Bergeles, "Autonomous Steering of Concentric Tube Robots via Nonlinear Model Predictive Control," in IEEE Transactions on Robotics, 
