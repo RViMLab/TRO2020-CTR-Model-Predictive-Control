@@ -19,7 +19,7 @@ class CTR_Model:
         # position of tubes' base from template (i.e., s=0)
         self.beta = self.q[0:3] + self.q_0[0:3]
         self.f = f.astype(float)
-        self.segment = Segment(self.tube1, self.tube2, self.tube3, self.beta)
+        self.segment = Segment(self.tube1, self.tube2, self.beta)
 
         self.span = np.append([0], self.segment.S)
         self.r_0 = np.array([0, 0, 0]).reshape(3, 1)  # initial position of robot
